@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/one.css" />
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js" type="text/javascript">
+		
+			
+		</script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+				
+			}
+			a{
+				text-decoration: none;
+			}
+			.box {
+				
+				border: 0;
+				margin: 100px 5px;
+				/*border-spacing:10px ;*/
+				display: flex;
+				flex-wrap: wrap;
+				text-align: center;
+			}
+			.box a h5{
+				margin-left:26px ;
+				width: 80%;
+				
+				font-size:20px ;
+				color: black;
+				background: rgba(255,255,255,0.6);
+			}
+			.box a p{
+				margin-left:26px ;
+				width: 80%;
+				font-size:20px ;
+				color: white;
+				background: rgba(0,0,0,0.3);
+				
+			}
+			.box .box2{
+				height: 164px;
+				overflow: hidden;
+			}
+			.box img{
+				width: 80%;
+				
+				
+			}
+			.box>a{
+				width: 20%;
+				margin: 10px 0;
+				display: block;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="header">
+			<div class="nav">
+				<ul>
+					<li>
+						<a href="">pokemon</a>
+					</li>
+					<li>
+						<a href="">死神</a>
+					</li>
+					<li>
+						<a href="">火影忍者</a>
+					</li>
+					<li>
+						<a href="">海贼王</a>
+					</li>
+					<li>
+						<a href="">妖精的尾巴</a>
+					</li>
+					<div id="line"></div>
+				</ul>
+
+			</div>
+
+		</div>
+
+		<div class="content">
+			<div  class="box" border="" cellspacing="" cellpadding="">
+					<!--<a href="###">
+						<div>
+					<h5>top30</h5>
+					<img src="img/30a.jpg"/ ">
+					<p>因为我们是伙伴</p>
+					</div>
+					</a>-->
+					
+					
+					
+				</div>
+				
+				<!--<tr>
+					<th>
+					<h5>top30</h5>
+					<img src="img/30a.jpg"/ style="height: 50%;">
+					<p>因为我们是伙伴</p>
+					</th>
+					<th>
+					<h5>top30</h5>
+					<img src="img/30a.jpg"/ style="height: 50%;">
+					<p>因为我们是伙伴</p>
+					</th>
+					<th>
+					<h5>top30</h5>
+					<img src="img/30a.jpg"/ style="height: 50%;">
+					<p>因为我们是伙伴</p>
+					</th>
+					<th>
+					<h5>top30</h5>
+					<img src="img/30a.jpg"/ style="height: 50%;">
+					<p>因为我们是伙伴</p>
+					</th>
+					<th>
+					<h5>top30</h5>
+					<img src="img/30a.jpg"/ style="height: 50%;">
+					<p>因为我们是伙伴</p>
+					</th>
+				</tr>-->
+			</table>
+
+		</div>
+
+		</div>
+		<div class="main" style="height: 200px;"></div>
+		<div class="bottom"></div>
+		<div class="footer">
+			<p>Copyright ©1996-2016 one piece,海贼王</p>
+			<p>我是要成为海贼王的男人</p>
+		</div>
+	</body>
+
+</html>
+<script>
+$(function(){
+	setTimeout(function(){
+		$(".text>.p1").fadeIn(1000)
+		$(".text>.p2").fadeIn(3000)
+		$(".text>.p3").fadeIn(5000)
+		
+	},1000)
+	
+	
+	
+	
+	
+})
+	
+	
+	var swiper = new Swiper('.swiper-container', {
+		pagination: '.swiper-pagination',
+		effect: 'coverflow',
+		grabCursor: true,
+		centeredSlides: true,
+		slidesPerView: 'auto',
+		coverflow: {
+			rotate: 50,
+			stretch: 0,
+			depth: 100,
+			modifier: 1,
+			slideShadows: true
+		}
+
+	});
+</script>

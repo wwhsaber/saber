@@ -1,0 +1,377 @@
+body {
+	user-select: none;
+}
+
+body,
+ul,
+li,
+h3,
+h4,
+p ,table,td,tr{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: url(../img/1111111111112.png);
+	/*	width: 1024px;*/
+	font-family: "微软雅黑";
+}
+
+ul {
+	list-style: none;
+}
+
+.bigbox {
+	width: 1280px;
+	margin: auto;
+	/*background: url(../img/IMG_0131.JPG);*/
+}
+
+#box {
+	/*border: 1px solid black;*/
+	width: 640px;
+	height: 360px;
+	/*margin: auto;*/
+	position: relative;
+	float: right;
+	/*right: 0;*/
+	top: 0px;
+	overflow: hidden;
+}
+
+#box ul {
+	width: 7040px;
+	;
+	list-style: none;
+	position: absolute;
+}
+
+#imglist {
+	left: -640px;
+}
+
+#box li {
+	float: left;
+}
+
+#box img {
+	width: 640px;
+	height: 360px;
+}
+
+.center {
+	width: 1280px;
+	height: 360px;
+}
+
+#right,
+#left {
+	position: absolute;
+	top: 165px;
+	width: 30px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 36px;
+	text-align: center;
+	background: #000;
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+	color: white;
+	cursor: pointer;
+}
+
+#right {
+	right: 0;
+}
+
+#tag {
+	bottom: 10px;
+	left: 30px;
+}
+
+#tag li {
+	width: 16px;
+	height: 16px;
+	background: white;
+	color: black;
+	text-align: center;
+	line-height: 16px;
+	float: left;
+	border-radius: 8px;
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+	cursor: pointer;
+	margin: 0 10px;
+}
+
+#tag .active {
+	background: red;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+
+/*导航*/
+
+.nav {
+	width: 1280px;
+	margin: 0 auto;
+	background: url(../img/14.png);
+	text-align: center;
+	/*height: 30px;*/
+	position: relative;
+}
+.nav #line{
+	border: 1px solid black;
+	width:120px ;
+	position: absolute;
+	top:30px
+}
+.nav>ul {
+	overflow: hidden;
+}
+
+.nav li {
+	/*width: 80px;*/
+	
+	float: left;
+	text-align: center;
+	color: black;
+	line-height: 30px;
+	border-left: 1px solid lightgray;
+	width: 120px;
+	
+}
+
+.nav li a{
+	text-decoration: none;
+	/*font-weight: bold;*/
+	color: #666;
+	display: block;
+	/*padding: 0 20px;*/
+	
+}
+.nav li a:hover{
+	background: #333;
+	color: white;
+}
+
+/*顶部*/
+
+.top {
+	margin: auto;
+	width: 1280px;
+	overflow: hidden;
+	background: url(../img/1111_07.jpg);
+}
+
+.top .topimg1 {
+	width: 567px;
+	height: 143px;
+	float: left;
+}
+
+.top .topimg2 {
+	height: 143px;
+	float: right;
+}
+
+
+/*中间左边*/
+
+.centerleft {
+	width: 640px;
+	float: left;
+	background: url(../img/last.jpg);
+	background-size: 640px;
+	height: 360px;
+}
+
+
+/*.centerleft h3 {
+	line-height: 2;
+	font-size: 24px;
+	color: #555;
+}
+
+.centerleft h4 {
+	line-height: 2;
+	font-size: 28px;
+	padding-left: 100px;
+	color: lightslategrey;
+	float: right;
+}*/
+
+.centerleft p {
+	padding: 0 20px;
+	text-indent: 2em;
+	line-height: 2;
+	font-weight: bold;
+	/*color: whitesmoke*/
+}
+
+#ad {
+	width: 100px;
+	height: 75px;
+	position: fixed;
+	left: 0;
+}
+#ad2 {
+	width: 100px;
+	height: 75px;
+	position: fixed;
+	left: -200px;
+}
+
+
+/*角色介绍*/
+
+.introduce {
+	display: block;
+	clear: both;
+	zoom: 1;
+	overflow: hidden;
+	height: 30px;
+	line-height: 30px;
+	font-size: 22px;
+	font-weight: 400;
+	margin: 35px 0 15px -10px;
+	position: relative;
+	border-left: 18px solid #4F9CEE;
+	border-bottom: 1px solid #aaa;
+}
+
+.introduce h3 {
+	left: left;
+	display: block;
+	padding: 0 8px 0 18px;
+	line-height: 22px;
+	font-size: 22px;
+	font-weight: 400;
+	color: #000000;
+}
+
+.introduce em {
+	border-bottom: 1px solid #aaa;
+}
+
+.table h3,
+.table h4,
+.table p {
+	text-align: left;
+	padding-left: 20px;
+	font-size: 14px;
+	font-weight: normal;
+}
+.table caption{
+	padding-right: 300px;
+	
+	
+}
+
+.table h3 {
+	font-weight: bold;
+	color: #136ec2;
+	/*padding-bottom: 20px;*/
+	font-size: 18px;
+}
+.table h3 span{
+	font-weight: normal;
+	color: black;
+	font-size: 14px;
+	
+}
+.table h4{
+	padding:20px 0px 10px 20px;
+}
+.table p{
+	line-height: 2;
+	padding-right: 60px ;
+	
+}
+.table p a{
+	text-decoration: none;
+	color: #136ec2;
+	}
+.table p em{
+		font-weight: bold;
+		font-style: normal;
+	}
+.person{
+		width: 330px;
+		height: 186px;
+		
+	}
+.Satoshi{
+	height: 210px;
+	border: 1px solid gainsboro;
+	text-align: center;
+}
+
+
+/*底部导航*/
+.bottom{
+	
+	width: 1280px;
+
+	background: white;
+	height: 155px;
+	margin-top:50px ;
+	
+}
+.footer{
+	
+	overflow: hidden;
+	text-align: center;
+}
+.footer p{
+	line-height: 30px;
+	font-size: 16px;
+	color: #333
+}
+.footer span{
+	float: right;
+}
+
+
+
+#backtop{
+	
+	display: none;
+	position: fixed;
+	cursor: pointer;
+	right: 7px;
+	bottom: 60px;
+	width: 37px;
+	height: 38px;
+	background: url(../img/backtop.png) no-repeat 1px 0;
+	opacity: 0.3;
+
+	
+	
+}
+.btn-text{
+	display: none;
+	text-decoration: none;
+    color: black;
+    text-align: center;
+    position: relative;
+    width: 35px;
+    top: 37px;
+    left: 1px;
+    line-height: 15px;
+    font-family: 微软雅黑, 宋体, Arial;
+	margin:10px 0;
+	
+	
+	
+}
+
+.poke{
+	height: 30%;
+	width: 30%;
+	position: absolute;
+	display: none;
+	
+}
